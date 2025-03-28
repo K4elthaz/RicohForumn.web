@@ -2,6 +2,8 @@ import { Link } from "react-router-dom";
 
 import { Button } from "@/components/ui/button"
 import { Github } from "lucide-react"
+import { ModeToggle } from "./theme-toggle";
+
 
 export default function Navbar() {
   return (
@@ -38,6 +40,7 @@ export default function Navbar() {
             Contact
           </Button>
           <Button size="sm">Get a Demo</Button>
+          <ModeToggle />
         </div>
       </div>
     </header>
