@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 import { Button } from "@/components/ui/button"
-import { Github } from "lucide-react"
+// import { Github } from "lucide-react"
 import { ModeToggle } from "./theme-toggle";
 
 

@@ -49,9 +49,9 @@ export default function VideoGallery() {
     setSelectedVideo(video)
   }
 
-  const closeModal = () => {
-    setSelectedVideo(null)
-  }
+//   const closeModal = () => {
+//     setSelectedVideo(null)
+//   }
 
   return (
     <div>
