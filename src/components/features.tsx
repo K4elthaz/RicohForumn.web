@@ -29,7 +29,7 @@ export default function Features() {
       <div className="mx-auto max-w-[58rem] text-center">
         <h2 className="font-bold text-3xl leading-[1.1] sm:text-3xl md:text-5xl">Cutting-Edge Solutions</h2>
         <p className="mt-4 text-muted-foreground sm:text-lg">
-          Discover how Amane Soft can transform your business with our innovative technologies.
+          Discover how Ricoh Philippines can transform your business with our innovative technologies.
         </p>
       </div>
       <div className="mx-auto grid max-w-5xl grid-cols-1 gap-8 md:grid-cols-2">

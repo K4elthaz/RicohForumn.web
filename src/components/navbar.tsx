@@ -13,24 +13,24 @@ export default function Navbar() {
         <img src="/Ricoh_logo_2012.png" alt="Ricoh" className="h-9 w-100" />
         </Link>
         <nav className="flex flex-1 items-center space-x-6 text-sm font-medium">
-          <Link to="/solutions" className="transition-colors hover:text-primary">
-            Presentations
+          <Link to="/gallery" className="transition-colors hover:text-primary">
+            Video Presentations
           </Link>
-          <Link to="/industries" className="transition-colors hover:text-primary">
+          <Link to="/comingsoon" className="transition-colors hover:text-primary">
             DW Configurator
           </Link>
-          <Link to="/about" className="transition-colors hover:text-primary">
+          <Link to="/comingsoon" className="transition-colors hover:text-primary">
             Documentations
           </Link>
-          <Link to="/about" className="transition-colors hover:text-primary">
+          <Link to="/comingsoon" className="transition-colors hover:text-primary">
             Forumn
           </Link>
-          <Link to="/about" className="transition-colors hover:text-primary">
+          <Link to="/comingsoon" className="transition-colors hover:text-primary">
             CS Teams
           </Link>
         </nav>
         <div className="flex items-center space-x-4">
-          <Link to="https://github.com/amanesoft" target="_blank" rel="noreferrer">
+          {/* <Link to="https://github.com/amanesoft" target="_blank" rel="noreferrer">
             <Button variant="ghost" size="icon">
               <Github className="h-4 w-4" />
               <span className="sr-only">GitHub</span>
@@ -38,7 +38,7 @@ export default function Navbar() {
           </Link>
           <Button variant="ghost" size="sm">
             Contact
-          </Button>
+          </Button> */}
           <Button size="sm">Get a Demo</Button>
           <ModeToggle />
         </div>
